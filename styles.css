@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;              /* Enable Flexbox layout */
+  flex-direction: row;        /* Arrange items in a row */
+  justify-content: center;    /* Center horizontally */
+  align-items: center;        /* Center vertically */
+  flex-wrap: wrap;            /* Move items to next row instead of squashing */
+}
